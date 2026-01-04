@@ -1,0 +1,5 @@
+aiohttp>=3.9
+parsel>=1.8.1
+lxml>=4.9
+# Optional for dynamic sites (install separately):
+# playwright>=1.44
