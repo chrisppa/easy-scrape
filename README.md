@@ -1,6 +1,6 @@
 easy-scrape (Starter)
 
-A minimal, async-first scraping framework skeleton inspired by Scrapy’s architecture but built on Python’s asyncio. It favors simplicity and quick experimentation while keeping familiar concepts: crawlers, middlewares, and pipelines. Static pages use aiohttp + Parsel; dynamic pages can opt into Playwright. The goal of easy-scrape is simple: make scraping easy.
+A minimal, async-first scraping framework skeleton built on Python’s asyncio. It favors simplicity and quick experimentation while keeping familiar concepts: crawlers, middlewares, and pipelines. Static pages use aiohttp + Parsel; dynamic pages can opt into Playwright. The goal of easy-scrape is simple: make scraping easy.
 
 Quick Start
 
