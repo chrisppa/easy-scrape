@@ -19,6 +19,12 @@ Contributing and Community
 - Please follow our `CODE_OF_CONDUCT.md`.
 - Security issues? See `SECURITY.md` for private reporting instructions.
 
+Sponsorship
+
+If this project helps you, consider sponsoring to support ongoing development:
+
+- Ko-fi: https://ko-fi.com/chrisppa
+
 License
 
 This project is licensed under the MIT License — see `LICENSE` for details.
