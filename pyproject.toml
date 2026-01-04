@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy-scrape"
+version = "0.1.0"
+description = "A small, async-first scraping framework that makes scraping easy."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Chrisppa" }]
+dependencies = [
+  "aiohttp>=3.9",
+  "parsel>=1.8.1",
+  "lxml>=4.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/chrisppa/easy-scrape"
+Issues = "https://github.com/chrisppa/easy-scrape/issues"
+
+[project.scripts]
+easy-scrape = "easy_scrape.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["easy_scrape*"]
+
