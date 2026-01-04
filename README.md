@@ -23,7 +23,7 @@ Sponsorship
 
 If this project helps you, consider sponsoring to support ongoing development:
 
-- Ko-fi: https://ko-fi.com/chrisppa
+[![Support on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/chrisppa)
 
 License
 
