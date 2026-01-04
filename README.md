@@ -13,6 +13,16 @@ Quick Start
 - Run the example crawler with CLI (inside the venv):
   - `python -m easy_scrape.cli run easy_scrape.crawlers.example_crawler:ExampleCrawler`
 
+Contributing and Community
+
+- Contributions are welcome! See `CONTRIBUTING.md` for guidelines.
+- Please follow our `CODE_OF_CONDUCT.md`.
+- Security issues? See `SECURITY.md` for private reporting instructions.
+
+License
+
+This project is licensed under the MIT License — see `LICENSE` for details.
+
 Project Structure
 
 - `easy_scrape/core/` – engine, request/response, downloader, browser stub
