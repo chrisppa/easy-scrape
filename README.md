@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
   <img src="assets/easy_scrape_logo_readme.png" alt="easy-scrape" width=350" />
 </p>
 
