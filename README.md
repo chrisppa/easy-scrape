@@ -29,6 +29,18 @@ If this project helps you, consider sponsoring to support ongoing development:
 
 License
 
+Documentation
+
+- Full docs live under `docs/`:
+  - `docs/README.md`
+  - `docs/getting_started.md`
+  - `docs/architecture.md`
+  - `docs/cli.md`
+  - `docs/crawlers.md`
+  - `docs/middlewares_pipelines.md`
+  - `docs/troubleshooting.md`
+  - `docs/roadmap.md`
+
 This project is licensed under the MIT License — see `LICENSE` for details.
 
 Project Structure
