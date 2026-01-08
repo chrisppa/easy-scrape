@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json as _json
 from typing import Any, Dict, Optional
+from urllib.parse import urljoin as _urljoin
 
 from parsel import Selector
 
@@ -42,6 +43,10 @@ class Response:
     def json(self) -> Any:
         return _json.loads(self.text)
 
+    # URL helpers
+    def urljoin(self, url: str) -> str:
+        """Return an absolute URL by joining with this response's URL."""
+        return _urljoin(self.url, url)
+
     def __repr__(self) -> str:
         return f"Response(url={self.url!r}, status={self.status}, len={len(self.content)})"
-
